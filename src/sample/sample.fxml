@@ -40,20 +40,20 @@
             <HBox prefHeight="100.0" prefWidth="200.0">
                <children>
                   <Label text="Number 1: " />
-                  <TextField />
+                  <TextField fx:id="number1" />
                </children>
             </HBox>
             <HBox prefHeight="100.0" prefWidth="200.0">
                <children>
                   <Label text="Number 2: " />
-                  <TextField />
+                  <TextField fx:id="number2" />
                </children>
             </HBox>
-            <Button mnemonicParsing="false" text="Calculate Sum" />
+            <Button fx:id="calcButton" mnemonicParsing="false" text="Calculate Sum" />
             <HBox prefHeight="100.0" prefWidth="200.0">
                <children>
                   <Label text="Result: " />
-                  <Label text="0" />
+                  <Label fx:id="resultLabel" text="0" />
                </children>
             </HBox>
          </children>
