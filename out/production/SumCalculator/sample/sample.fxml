@@ -49,6 +49,7 @@
                   <TextField />
                </children>
             </HBox>
+            <Button mnemonicParsing="false" text="Calculate Sum" />
             <HBox prefHeight="100.0" prefWidth="200.0">
                <children>
                   <Label text="Result: " />
