@@ -21,6 +21,9 @@ public class Controller {
 
     @FXML
     void calcSum(ActionEvent event) {
-
+        int first = Integer.parseInt(number1.getText());
+        int second = Integer.parseInt(number2.getText());
+        int result = first + second;
+        resultLabel.setText(""+ result);
     }
 }
